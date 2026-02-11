@@ -93,3 +93,26 @@ This project uses code from:
 
 Full license texts are in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES/).
 ---
+
+## 🙏 Acknowledgments
+
+- [LLVM Project](https://llvm.org/) — for the amazing compiler framework
+- [Rust Team](https://www.rust-lang.org/) — for inspiration and tools
+- All contributors to this project ❤️
+
+---
+
+## 📬 Contact
+
+- 🐛 Found a bug? → [Create an Issue](https://github.com/YOUR_USERNAME/rust-minus-minus-ide/issues/new)
+- 💬 Questions? → [Discussions](https://github.com/YOUR_USERNAME/rust-minus-minus-ide/discussions)
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Rust-- community**
+
+⭐ If you find this project useful — give it a star! ⭐
+
+</div>
