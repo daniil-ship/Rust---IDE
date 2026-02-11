@@ -98,6 +98,7 @@ Full license texts are in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES/).
 
 - [LLVM Project](https://llvm.org/) — for the amazing compiler framework
 - [Rust Team](https://www.rust-lang.org/) — for inspiration and tools
+- [NASM](https://www.nasm.us/) — for the powerful assembler
 - All contributors to this project ❤️
 
 ---
