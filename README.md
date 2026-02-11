@@ -105,7 +105,7 @@ Full license texts are in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES/).
 
 ## 📬 Contact
 
-- 🐛 Found a bug? → [Create an Issue](https://github.com/YOUR_USERNAME/rust-minus-minus-ide/issues/new)
+- 🐛 Found a bug? → [Create an Issue](https://github.com/daniil-ship/Rust---IDE/issues/new)
 - 💬 Questions? → [Discussions](https://github.com/YOUR_USERNAME/rust-minus-minus-ide/discussions)
 
 ---
