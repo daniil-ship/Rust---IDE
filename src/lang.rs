@@ -3233,7 +3233,7 @@ impl ExtTranspiler {
     }
 	fn generate_cargo_toml(&self, name: &str) -> String {
 		let mut toml = format!(
-			r#"[package]
+	r#"[package]
 	name = "{}"
 	version = "0.1.0"
 	edition = "2021"
@@ -3243,7 +3243,6 @@ impl ExtTranspiler {
 			name
 		);
 
-		// Убираем дубликаты по имени
 		let mut seen = std::collections::HashSet::new();
 		for dep in &self.dependencies {
 			if seen.insert(dep.name.clone()) {
@@ -3253,7 +3252,7 @@ impl ExtTranspiler {
 		}
 
 		toml.push_str(
-			r#"
+	r#"
 	[profile.release]
 	opt-level = "z"
 	lto = true
@@ -3264,7 +3263,6 @@ impl ExtTranspiler {
 		toml
 	}
 }
-
 #[derive(Debug, Clone)]
 pub struct TranspileResult {
     pub rust_code: String,
@@ -4063,23 +4061,23 @@ pub fn build_exe_with_compression(
     let _ = std::fs::remove_dir_all(&temp_dir);
     std::fs::create_dir_all(&src_dir).map_err(|e| format!("Не могу создать папку: {}", e))?;
 
-    let cargo_toml = format!(
-        r#"[package]
-name = "rsmm_output"
-version = "0.1.0"
-edition = "2021"
+	let cargo_toml = format!(
+	r#"[package]
+	name = "rsmm_output"
+	version = "0.1.0"
+	edition = "2021"
 
-[dependencies]
-{}
+	[dependencies]
+	{}
 
-{}
-"#,
-        result.dependencies.iter()
-            .map(|d| d.to_toml_line())
-            .collect::<Vec<_>>()
-            .join("\n"),
-        profile
-    );
+	{}
+	"#,
+		result.dependencies.iter()
+			.map(|d| d.to_toml_line())
+			.collect::<Vec<_>>()
+			.join("\n"),
+		profile
+	);
 
     std::fs::write(temp_dir.join("Cargo.toml"), &cargo_toml)
         .map_err(|e| format!("Не могу записать Cargo.toml: {}", e))?;
