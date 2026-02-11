@@ -86,6 +86,7 @@ This project uses code from:
 |---------|---------|
 | [LLVM](https://llvm.org/) | Apache 2.0 with LLVM Exceptions |
 | [Rust](https://www.rust-lang.org/) | MIT / Apache 2.0 |
+| [NASM](https://www.nasm.us/) | BSD 2-Clause |
 
 Full license texts are in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES/).
 ---
