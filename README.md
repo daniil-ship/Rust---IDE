@@ -67,14 +67,25 @@ Rust-- keeps the power of Rust while removing unnecessary complexity.
 ```text
 rust-minus-minus-ide/
 ├── src/                    # IDE source code
-│   ├── editor/             # Editor
-│   ├── compiler/           # Compiler integration
-│   ├── syntax/             # Syntax highlighting
-│   └── ui/                 # User interface
-├── docs/                   # Documentation
+├──     main.rs             # IDE file
+├──     lang.rs             # Language file
 ├── examples/               # Rust-- code examples
-├── screenshots/            # Screenshots
 ├── THIRD_PARTY_LICENSES/   # Dependency licenses
 ├── LICENSE                 # MIT License
 ├── CONTRIBUTING.md         # Contributor guide
-└── README.md               # This file
+├── README.md               # This file
+└── Cargo.toml              # Tom's Obsious Minimal Language file
+...
+```
+---
+### Third-Party Licenses
+
+This project uses code from:
+
+| Project | License |
+|---------|---------|
+| [LLVM](https://llvm.org/) | Apache 2.0 with LLVM Exceptions |
+| [Rust](https://www.rust-lang.org/) | MIT / Apache 2.0 |
+
+Full license texts are in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES/).
+---
