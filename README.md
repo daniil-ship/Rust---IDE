@@ -53,12 +53,12 @@ Rust-- keeps the power of Rust while removing unnecessary complexity.
 
 ### Requirements
 
-- Operating system: Windows / Linux / macOS
-- Git
+- Operating system: Windows (soon / Linux / macOS)
+  
 
 ### Releases
 
-> 📌 Releases will be available in the [Releases](https://github.com/YOUR_USERNAME/rust-minus-minus-ide/releases) section
+> 📌 Releases will be available in the [Releases]() section
 
 ---
 
