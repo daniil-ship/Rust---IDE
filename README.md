@@ -54,6 +54,9 @@ Rust-- keeps the power of Rust while removing unnecessary complexity.
 ### Requirements
 
 - Operating system: Windows (soon / Linux / macOS)
+- Nasm.exe (built-in)
+- Llvm linker (built-in)
+- rustc and cargo (built-in)
   
 
 ### Releases
